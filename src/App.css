@@ -1,9 +1,19 @@
+.center {
+	text-align: center;
+}
 
 .new-container {
-	padding: 8px;
+	padding: 15px;
 	width: 400px;
-	margin: 10px;
-	margin-left: 15px;
+	margin: 25px;
+	margin-left: 5%;
+	border: 1px solid lightgray;
+	border-radius: 4px;
+}
+
+.view-notebook {
+	padding: 15px;
+	width: inherit;
 	border: 1px solid lightgray;
 	border-radius: 4px;
 }

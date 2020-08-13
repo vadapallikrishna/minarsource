@@ -11,5 +11,6 @@ export function LandingPage(props: any) {
 		  <Button variant="primary">Code</Button>
 		</p>
 		</Jumbotron>
+		<p className="center">Site under Construction</p>
 	</MainLayout>
 }

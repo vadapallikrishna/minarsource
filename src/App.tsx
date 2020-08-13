@@ -4,6 +4,7 @@ import { LandingPage } from "./landing/page";
 import {BrowserRouter as Router, Switch, Route} from "react-router-dom";
 import { NewNotebook } from "./newnotebook";
 import { EditNotebook } from "./editnotebook";
+import { ViewNotebook } from "./viewnotebook";
 
 function App() {
   return (
@@ -18,6 +19,9 @@ function App() {
 	</Route>
 	<Route path="/edit">
 	<EditNotebook/>
+	</Route>
+	<Route path="/notebook">
+	<ViewNotebook/>
 	</Route>
 	</Switch>
 	</Router>
