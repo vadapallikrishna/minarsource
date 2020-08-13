@@ -9,16 +9,16 @@ export function EditNotebook(props:any) {
 	return <MainLayout>
 	<Nav>
 	<Nav.Item>
-	  File
+	  <Nav.Link>File</Nav.Link>
 	</Nav.Item>
 	<Nav.Item>
-          Insert
+          <Nav.Link>Insert</Nav.Link>
       </Nav.Item>
         <Nav.Item>
-          Form
+          <Nav.Link>Form</Nav.Link>
          </Nav.Item>
         <Nav.Item>
-          Access
+          <Nav.Link>Access</Nav.Link>
         </Nav.Item> 
 	</Nav>
 	<AceEditor
