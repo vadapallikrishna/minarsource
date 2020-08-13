@@ -1,5 +1,9 @@
 
 .new-container {
+	padding: 8px;
+	width: 400px;
+	margin: 10px;
+	margin-left: 15px;
 	border: 1px solid lightgray;
 	border-radius: 4px;
 }
