@@ -4,6 +4,7 @@ import { MainLayout } from "./mainlayout";
 
 export function NewNotebook(props: any) {
        return <MainLayout>
+       <div className="new-container">
        <h4>New Notebook</h4>
        <Form.Group>
        	 <Form.Label>Notebook name</Form.Label>
@@ -12,6 +13,7 @@ export function NewNotebook(props: any) {
        <Button variant="primary">
        	Create
        </Button>
+       </div>
        </MainLayout>
 }
 
