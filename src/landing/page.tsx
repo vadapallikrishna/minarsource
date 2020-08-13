@@ -6,7 +6,7 @@ export function LandingPage(props: any) {
 	return <MainLayout>
 		<Jumbotron>
 		<h1>Hello, World</h1>
-		<p>Write code in notebook format</p>
+		<p>Write code in Notebook format</p>
 		<p>
 		  <Button variant="primary">Code</Button>
 		</p>
