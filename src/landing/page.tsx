@@ -1,6 +1,6 @@
 import React from "react";
 import { MainLayout } from "../mainlayout";
-import { Jumbotron, Button } from "react-bootstrap";
+import { Jumbotron, Button, Container, Row } from "react-bootstrap";
 
 export function LandingPage(props: any) {
 	return <MainLayout>
@@ -11,6 +11,14 @@ export function LandingPage(props: any) {
 		  <Button variant="primary">Code</Button>
 		</p>
 		</Jumbotron>
-		<p className="center">Site under Construction</p>
-	</MainLayout>
+		<Container>
+		<Row>
+		<div className="left">
+		<h5>Search</h5>
+		<p>Search for already written tutorials, snippets</p>
+		</div>
+		<img width="100" height="100" src="/search-24px.svg"/>
+		</Row>
+		</Container>
+        </MainLayout>;
 }
