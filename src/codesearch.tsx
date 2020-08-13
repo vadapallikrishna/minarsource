@@ -4,7 +4,7 @@ import {Form} from "react-bootstrap";
 
 export function CodeSearch(props: any) {
 	return <MainLayout>
-	<section className="search-head-section">
+	<section className="section-head">
 	<Form.Group>
 	<Form.Label>Search</Form.Label>
 	<Form.Control type="text"/>
