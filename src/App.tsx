@@ -5,6 +5,8 @@ import {BrowserRouter as Router, Switch, Route} from "react-router-dom";
 import { NewNotebook } from "./newnotebook";
 import { EditNotebook } from "./editnotebook";
 import { ViewNotebook } from "./viewnotebook";
+import { NewCollection } from "./newcollection";
+import { ViewCollection } from "./viewcollection";
 
 function App() {
   return (
@@ -22,6 +24,12 @@ function App() {
 	</Route>
 	<Route path="/notebook">
 	<ViewNotebook/>
+	</Route>
+	<Route path="/collection/new">
+	<NewCollection/>
+	</Route>
+	<Route path="/collection/view">
+	<ViewCollection/>
 	</Route>
 	</Switch>
 	</Router>
