@@ -25,3 +25,9 @@
 .text-landing p{
 	font-size: 28px;
 }
+
+.search-head-section {
+	width: 100%;
+	padding: 15px;
+	background-color: azure;
+}

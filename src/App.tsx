@@ -7,6 +7,7 @@ import { EditNotebook } from "./editnotebook";
 import { ViewNotebook } from "./viewnotebook";
 import { NewCollection } from "./newcollection";
 import { ViewCollection } from "./viewcollection";
+import { CodeSearch } from "./codesearch";
 
 function App() {
   return (
@@ -30,6 +31,9 @@ function App() {
 	</Route>
 	<Route path="/collection/view">
 	<ViewCollection/>
+	</Route>
+	<Route path="/search">
+	<CodeSearch/>
 	</Route>
 	</Switch>
 	</Router>
