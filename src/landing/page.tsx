@@ -15,7 +15,7 @@ export function LandingPage(props: any) {
 		<Row>
 		<div className="left">
 		<h5>Search</h5>
-		<p>Search for already written tutorials, snippets</p>
+		<p>already written tutorials, snippets</p>
 		</div>
 		<img width="100" height="100" src="/search-24px.svg"/>
 		</Row>
