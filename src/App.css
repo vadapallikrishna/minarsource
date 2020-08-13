@@ -17,3 +17,11 @@
 	border: 1px solid lightgray;
 	border-radius: 4px;
 }
+
+.text-landing {
+	margin-right: 10%;
+}
+
+.text-landing p{
+	font-size: 28px;
+}

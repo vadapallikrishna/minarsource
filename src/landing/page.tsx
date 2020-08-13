@@ -13,8 +13,8 @@ export function LandingPage(props: any) {
 		</Jumbotron>
 		<Container>
 		<Row>
-		<div className="left">
-		<h5>Search</h5>
+		<div className="text-landing">
+		<h2>Search</h2>
 		<p>already written tutorials, snippets</p>
 		</div>
 		<img alt="search" width="100" height="100" src="/search-24px.svg"/>
